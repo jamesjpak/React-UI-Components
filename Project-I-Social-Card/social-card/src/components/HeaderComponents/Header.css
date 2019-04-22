@@ -1,1 +1,25 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-title h2 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.thumbnail-pic {
+    width: 80px;
+    height: 90px;
+}
+
+
