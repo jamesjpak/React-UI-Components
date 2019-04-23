@@ -1,7 +1,7 @@
 import React from 'react';
 import './Display.css';
 
- import NumberButton from '../ButtonComponents/NumberButton';
+import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 
 ActionButton.defaultProps = {
@@ -13,41 +13,41 @@ NumberButton.defaultProps = {
 }
 
 const CalculatorDisplay = () => {
-    return <div>
+    return <div className = "center">
 
         <div className = "layout">
-            <ActionButton buttonStyle = 'top-button' />
+            <ActionButton buttonStyle = 'top-display' text = '0' />
         </div>
 
         <div className = "layout">
-            <ActionButton buttonStyle = 'clear-button' />
-            <ActionButton buttonStyle = 'divide-button' />
+            <ActionButton buttonStyle = 'clear-button' text = 'clear' />
+            <ActionButton buttonStyle = 'divide-button' text = ' / ' />
         </div>
 
         <div className = "layout">
-            <NumberButton /> 
-            <NumberButton />
-            <NumberButton />
-            <ActionButton/>
+            <NumberButton text = '1' /> 
+            <NumberButton text = '2' />
+            <NumberButton text = '3' />
+            <ActionButton text = 'x' />
         </div>
 
         <div className = "layout">
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
-            <ActionButton/>
+            <NumberButton text = '4' />
+            <NumberButton text = '5' />
+            <NumberButton text = '6' />
+            <ActionButton text = '-' />
         </div>
 
         <div className = "layout">
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
-            <ActionButton />
+            <NumberButton text = '7' />
+            <NumberButton text = '8' />
+            <NumberButton text = '9' />
+            <ActionButton text = '+' />
         </div>
 
         <div className = "layout">
-            <NumberButton />
-            <ActionButton />
+            <NumberButton buttonStyle = 'zero-button' text = ' 0 ' />
+            <ActionButton text = ' = '/>
         </div>
 
     </div>
