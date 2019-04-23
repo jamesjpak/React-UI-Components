@@ -1,10 +1,11 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
     border: solid 1px grey;
     border-radius: 5px;
+    margin-left: 90px;
 }
 
 .card-container img {
@@ -20,3 +21,4 @@
 .card-content a {
     text-decoration: none;
 }
+
