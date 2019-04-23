@@ -1,0 +1,12 @@
+.footer-container {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+}
+
+.footer-content i {
+    padding: 10px;
+}
